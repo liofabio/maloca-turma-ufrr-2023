@@ -54,9 +54,10 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
 - **Arduino**:
   
   1. Na tela inicial do Arduino IDE, selecione “Select Board” e depois “Select other board and port” para selecionar a placa a ser utilizada.
-     
+
      ![1](https://github.com/user-attachments/assets/8d8eba8e-d730-41ac-840c-23d00e4788ed)
-  
+
+
   3. No campo “Boards”, digite a placa a ser utilizada, no nosso caso será o Arduino UNO. Depois de selecionar, clique em “OK” no canto inferior direito.
      
     ![2](https://github.com/user-attachments/assets/90164b8a-b61c-41b4-afc1-9f54f28c6700)
@@ -89,7 +90,7 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
 
 Aqui definiremos os pinos dos sensores no Arduino e suas saídas:
 
-´´´C
+```C
 //declaração dos pinos e tipos de dados
 int sensor = 7; 
 int buzzer = 13;
@@ -109,13 +110,13 @@ void setup()
 long microsegs_para_cm (long microsegundos){
   return microsegundos / 29 / 2;
 }
-´´´
+```
 
 ### Passo 2: Processamento e Lógica de Alerta
 
 Lógica para o sensor detectar movimento e duração para posteriormente ser convertido em cm, podendo acionar o buzzer
 
-´´´
+```C
 void loop()
 {
   pinMode(buzzer, OUTPUT);
@@ -147,7 +148,7 @@ void loop()
                
   delay(100);
 }
-´´´
+```
 
 ---
 

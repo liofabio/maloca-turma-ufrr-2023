@@ -50,7 +50,8 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
 
 ### Passo 2: Configuração das Placas
 
-- **Arduino/**:
+- **Arduino**:
+  
   1. Na tela inicial do Arduino IDE, selecione “Select Board” e depois “Select other board and port” para selecionar a placa a ser utilizada.
      ![1](https://github.com/user-attachments/assets/8d8eba8e-d730-41ac-840c-23d00e4788ed)
   
@@ -60,6 +61,7 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
 ---
 
 ## Montagem do Circuito
+
 **• Alimentação e aterramento do circuito**
   1. Conecte o pino GND do Arduino na linha de alimentação negativa (linha preta) do protoboard.
   2. Faça o mesmo com o pino 5V do Arduino e conecte na linha de alimentação positiva (linha vermelha)
@@ -150,6 +152,7 @@ void loop()
   2. Distância que aciona o alarme: verifique se o acionamento pela distância estabelecida é atendido e se o alarme é tocado.
     
   3. Teste em ambientes: Faça o teste em lugares que o sistema possa ficar de maneira estratégica e que consiga executar sua função. Teste em diferentes posições de portas e janelas, e em situações onde a abertura dessas é variada, como hospitais e domicílio.
+     
      ![Captura de tela 2024-11-19 145830](https://github.com/user-attachments/assets/ddff2b32-2e27-44d1-a723-cffb21254666)
 
 

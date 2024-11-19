@@ -51,14 +51,15 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
 
 ### Passo 2: Configuração das Placas
   
-  1. Na tela inicial do Arduino IDE, selecione “Select Board” e depois “Select other board and port” para selecionar a placa a ser utilizada. Em "PORTS", selecione a porta USB na qual a placa está conectada.
+  1. Na tela inicial do Arduino IDE, selecione “Select Board” e depois “Select other board and port” para selecionar a placa a ser utilizada.
 
   ![1](https://github.com/user-attachments/assets/8d8eba8e-d730-41ac-840c-23d00e4788ed)
 
 
-  2. No campo “Boards”, digite a placa a ser utilizada, no nosso caso será o Arduino UNO. Depois de selecionar, clique em “OK” no canto inferior direito.
+  2. No campo “Boards”, digite a placa a ser utilizada, no nosso caso será o Arduino UNO. Em "Ports", selecione a porta USB na qual a placa está conectada. Depois de selecionar, clique em “OK” no canto inferior direito.
      
-  ![2](https://github.com/user-attachments/assets/90164b8a-b61c-41b4-afc1-9f54f28c6700)
+  ![config_ide2](https://github.com/user-attachments/assets/724aae51-bf4c-4fa0-b66e-1becae8ee43f)
+
 
 ---
 

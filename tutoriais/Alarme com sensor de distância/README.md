@@ -48,14 +48,17 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
   1. Através do site de download do Arduino (https://www.arduino.cc/en/software), selcione o arquivo de acordo com seu sistema operacional.
   2. Instale normalmente e abra-o para as configurações do projeto.
 
+
 ### Passo 2: Configuração das Placas
 
 - **Arduino**:
   
   1. Na tela inicial do Arduino IDE, selecione “Select Board” e depois “Select other board and port” para selecionar a placa a ser utilizada.
+     
      ![1](https://github.com/user-attachments/assets/8d8eba8e-d730-41ac-840c-23d00e4788ed)
   
-  2. No campo “Boards”, digite a placa a ser utilizada, no nosso caso será o Arduino UNO. Depois de selecionar, clique em “OK” no canto inferior direito.
+  3. No campo “Boards”, digite a placa a ser utilizada, no nosso caso será o Arduino UNO. Depois de selecionar, clique em “OK” no canto inferior direito.
+     
     ![2](https://github.com/user-attachments/assets/90164b8a-b61c-41b4-afc1-9f54f28c6700)
 
 ---

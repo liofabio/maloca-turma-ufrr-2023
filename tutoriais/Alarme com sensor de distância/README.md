@@ -87,8 +87,9 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
 
 ### Passo 1: Configuração dos Sensores e Atuadores
 
-Aqui definiremos os pinos dos sensores no Arduino
+Aqui definiremos os pinos dos sensores no Arduino e suas saídas:
 
+´´´C
 //declaração dos pinos e tipos de dados
 int sensor = 7; 
 int buzzer = 13;
@@ -108,12 +109,13 @@ void setup()
 long microsegs_para_cm (long microsegundos){
   return microsegundos / 29 / 2;
 }
-
+´´´
 
 ### Passo 2: Processamento e Lógica de Alerta
 
 Lógica para o sensor detectar movimento e duração para posteriormente ser convertido em cm, podendo acionar o buzzer
 
+´´´
 void loop()
 {
   pinMode(buzzer, OUTPUT);
@@ -145,6 +147,7 @@ void loop()
                
   delay(100);
 }
+´´´
 
 ---
 
@@ -156,7 +159,7 @@ void loop()
     
   3. Teste em ambientes: Faça o teste em lugares que o sistema possa ficar de maneira estratégica e que consiga executar sua função. Teste em diferentes posições de portas e janelas, e em situações onde a abertura dessas é variada, como hospitais e domicílio.
      
-     ![Captura de tela 2024-11-19 145830](https://github.com/user-attachments/assets/ddff2b32-2e27-44d1-a723-cffb21254666)
+![Captura de tela 2024-11-19 145830](https://github.com/user-attachments/assets/ddff2b32-2e27-44d1-a723-cffb21254666)
 
 
 ---

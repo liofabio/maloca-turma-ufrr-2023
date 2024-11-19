@@ -44,7 +44,7 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
 
 ### Passo 1: Instalação do Software
 
-- **Arduino IDE**:
+**Arduino IDE**:
   1. Através do site de download do Arduino (https://www.arduino.cc/en/software), selcione o arquivo de acordo com seu sistema operacional.
   2. Instale normalmente e abra-o para as configurações do projeto.
 
@@ -67,7 +67,7 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
 **• Alimentação e aterramento do circuito**
   1. Conecte o pino GND do Arduino na linha de alimentação negativa (linha preta) do protoboard.
   2. Faça o mesmo com o pino 5V do Arduino e conecte na linha de alimentação positiva (linha vermelha)
-  *O pino GND funciona como terra para todo o circuito, enquanto o pino de 5V serve como fonte de energia.
+  *O pino GND funciona como terra para todo o circuito, enquanto o pino de 5V serve como fonte de energia.*
 
 **• Conectando o sensor de distância**
   1. Conecte o pino GND do sensor na linha de alimentação negativa
@@ -76,7 +76,8 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
      
 **• Conectando o buzzer**
   1. Ligue o terminal negativo do buzzer na linha negativa de alimentação
-  2. Ligue o terminal positivo do buzzer em um resistor de 1kOhm e depois no pino digital 13, ou se sua preferência. O resistor irá limitar a energia que passa pelo buzzer, evitando a queima.
+  2. Ligue o terminal positivo do buzzer em um resistor de 1kOhm e depois no pino digital 13, ou se sua preferência.
+  *O resistor irá limitar a energia que passa pelo buzzer, evitando a queima.*
 
   ![Captura de tela 2024-11-19 010546](https://github.com/user-attachments/assets/ea7563e5-5006-4b4e-8fc7-6aa07d53be76)
 
@@ -152,11 +153,13 @@ void loop()
 
 ## Teste e Validação
 
-  1. Ligações entre os sensores e a placa: Certifique-se que todas ligações entre os sensores, o resistor e a placa estejam devidamente no lugares corretos para evitar transtornos. A plataforma Tinkercad (https://www.tinkercad.com/) pode ser utilizada para uma primeira modelagem do sistema.
+  **1. Placa ligada o computador:** Certifique-se que a placa esteja devidamente ligada no computador pela porta USB e sendo reconhecida na IDE em "PORTS".
+
+  **2. Ligações entre os sensores e a placa:** Certifique-se que todas ligações entre os sensores, o resistor e a placa estejam devidamente no lugares corretos para evitar transtornos. A plataforma Tinkercad (https://www.tinkercad.com/) pode ser utilizada para uma primeira modelagem do sistema.
      
-  2. Distância que aciona o alarme: verifique se o acionamento pela distância estabelecida é atendido e se o alarme é tocado.
+  **3. Distância que aciona o alarme:** verifique se o acionamento pela distância estabelecida é atendido e se o alarme é tocado.
     
-  3. Teste em ambientes: Faça o teste em lugares que o sistema possa ficar de maneira estratégica e que consiga executar sua função. Teste em diferentes posições de portas e janelas, e em situações onde a abertura dessas é variada, como hospitais e domicílio.
+  **4. Teste em ambientes:** Faça o teste em lugares que o sistema possa ficar de maneira estratégica e que consiga executar sua função. Teste em diferentes posições de portas e janelas, e em situações onde a abertura dessas é variada, como hospitais e domicílio.
      
   ![Captura de tela 2024-11-19 145830](https://github.com/user-attachments/assets/ddff2b32-2e27-44d1-a723-cffb21254666)
 

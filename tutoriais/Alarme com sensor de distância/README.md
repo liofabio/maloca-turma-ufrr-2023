@@ -51,7 +51,7 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
 
 ### Passo 2: Configuração das Placas
   
-  1. Na tela inicial do Arduino IDE, selecione “Select Board” e depois “Select other board and port” para selecionar a placa a ser utilizada.
+  1. Na tela inicial do Arduino IDE, selecione “Select Board” e depois “Select other board and port” para selecionar a placa a ser utilizada. Em "PORTS", selecione a porta USB na qual a placa está conectada.
 
   ![1](https://github.com/user-attachments/assets/8d8eba8e-d730-41ac-840c-23d00e4788ed)
 
@@ -66,7 +66,7 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
 
 **• Alimentação e aterramento do circuito**
   1. Conecte o pino GND do Arduino na linha de alimentação negativa (linha preta) do protoboard.
-  2. Faça o mesmo com o pino 5V do Arduino e conecte na linha de alimentação positiva (linha vermelha)
+  2. Faça o mesmo com o pino 5V do Arduino e conecte na linha de alimentação positiva (linha vermelha).
   *O pino GND funciona como terra para todo o circuito, enquanto o pino de 5V serve como fonte de energia.*
 
 **• Conectando o sensor de distância**

@@ -55,12 +55,12 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
   
   1. Na tela inicial do Arduino IDE, selecione “Select Board” e depois “Select other board and port” para selecionar a placa a ser utilizada.
 
-     ![1](https://github.com/user-attachments/assets/8d8eba8e-d730-41ac-840c-23d00e4788ed)
+  ![1](https://github.com/user-attachments/assets/8d8eba8e-d730-41ac-840c-23d00e4788ed)
 
 
   3. No campo “Boards”, digite a placa a ser utilizada, no nosso caso será o Arduino UNO. Depois de selecionar, clique em “OK” no canto inferior direito.
      
-    ![2](https://github.com/user-attachments/assets/90164b8a-b61c-41b4-afc1-9f54f28c6700)
+  ![2](https://github.com/user-attachments/assets/90164b8a-b61c-41b4-afc1-9f54f28c6700)
 
 ---
 
@@ -80,7 +80,7 @@ Existem muitas situações que podem colocar um paciente em risco, principalment
   1. Ligue o terminal negativo do buzzer na linha negativa de alimentação
   2. Ligue o terminal positivo do buzzer em um resistor de 1kOhm e depois no pino digital 13, ou se sua preferência. O resistor irá limitar a energia que passa pelo buzzer, evitando a queima.
 
-![Captura de tela 2024-11-19 010546](https://github.com/user-attachments/assets/ea7563e5-5006-4b4e-8fc7-6aa07d53be76)
+  ![Captura de tela 2024-11-19 010546](https://github.com/user-attachments/assets/ea7563e5-5006-4b4e-8fc7-6aa07d53be76)
 
 ---
 
@@ -160,7 +160,7 @@ void loop()
     
   3. Teste em ambientes: Faça o teste em lugares que o sistema possa ficar de maneira estratégica e que consiga executar sua função. Teste em diferentes posições de portas e janelas, e em situações onde a abertura dessas é variada, como hospitais e domicílio.
      
-![Captura de tela 2024-11-19 145830](https://github.com/user-attachments/assets/ddff2b32-2e27-44d1-a723-cffb21254666)
+  ![Captura de tela 2024-11-19 145830](https://github.com/user-attachments/assets/ddff2b32-2e27-44d1-a723-cffb21254666)
 
 
 ---
@@ -170,8 +170,8 @@ void loop()
 Sugestões para melhorar o projeto, como:
 
 - Ajuste a tolerância de distância que ativa o alarme, conforme necessário.
-- Uso de módulos de comunicação Wi-Fi ou Bluetooth para enviar alertas de maneira mais conveninete
-- Uso de LEDs coloridos para gerar atenção visual
+- Uso de módulos de comunicação Wi-Fi ou Bluetooth para enviar alertas de maneira mais conveniente.
+- Uso de LEDs coloridos para gerar atenção visual.
 
 ---
 

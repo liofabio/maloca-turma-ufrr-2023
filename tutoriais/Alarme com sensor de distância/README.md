@@ -152,7 +152,7 @@ void loop()
 
 ## Teste e Validação
 
-  1. Ligações entre os sensores e a placa: Certifique-se que todas ligações entre os sensores, o resistor e a placa estejam devidamente no lugares corretos para evitar transtornos. A plataforma Tinkercad pode ser utilizada para uma primeira modelagem do sistema.
+  1. Ligações entre os sensores e a placa: Certifique-se que todas ligações entre os sensores, o resistor e a placa estejam devidamente no lugares corretos para evitar transtornos. A plataforma Tinkercad (https://www.tinkercad.com/) pode ser utilizada para uma primeira modelagem do sistema.
      
   2. Distância que aciona o alarme: verifique se o acionamento pela distância estabelecida é atendido e se o alarme é tocado.
     
